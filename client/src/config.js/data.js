@@ -79,34 +79,15 @@ export const technologiesImg = [
 export const teamImg = [
   {
     "id" : 1,
-    "name": "Narender Singh Bisht",
-    "src" : "/team/narender.jpg",
-    "role" : "Frontend Developer",
-    "link": "https://narenderportfolio.netlify.app",
-  },
-  {
-    "id" : 2,
-    "name": "Nitesh",
-    "src" : "/team/nitesh.png",
+    "name": "Ankush Kumar",
+    "src" : "/team/Ankush.jpg",
     "role" : "Full-stack Developer",
-    "link": "https://nitesh-tiwari-portfolio-xyz.vercel.app/",
-  },
-  {
-    "id" : 3,
-    "name": "Rituresh kumar rai ",
-    "src" : "/team/rithuresh.jpg",
-    "role" : "Backend Developer",
-    "link": "https://infallible-yonath-5de199.netlify.app/",
-  },
- 
- 
-]
-
+    "link": "https://narenderportfolio.netlify.app",
+  },]
 export const colors = [
   {
     "id": 1,
     "color": "rgb(28, 157, 234)"
-
   },
   {
     "id": 2,
@@ -123,7 +104,4 @@ export const colors = [
   {
     "id": 5,
     "color": "rgb(255, 128, 60)"
-  }
-  
-
-]
+}]
