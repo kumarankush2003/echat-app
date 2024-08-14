@@ -1,18 +1,18 @@
 import React from "react";
+import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
+import { BsFillBriefcaseFill } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 import styled from "styled-components";
 import { teamImg } from "../config.js/data";
-import { BiRightArrowAlt, BiLeftArrowAlt } from "react-icons/bi";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BsFillBriefcaseFill } from "react-icons/bs";
 
 //import swiper core and require module
-import { Navigation, Autoplay, Pagination } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 //import Swper Styles
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/autoplay";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Team = () => {
@@ -58,15 +58,16 @@ const Team = () => {
               delay: 2500,
             }}
             breakpoints={{
-              0: {
-                slidesPerView: 1,
-              },
-              525: {
-                slidesPerView: 2,
-              },
-              945: {
-                slidesPerView: 3,
-              },
+              // 0: {
+              //   slidesPerView: 1,
+              // },
+              // 525: {
+              //   slidesPerView: 2,
+              // },
+              // 945: {
+              //   slidesPerView: 3,
+              // },
+              1024: { slidesPerView: 1,},
             }}
           >
             {teamImg.map((item, index) => (
