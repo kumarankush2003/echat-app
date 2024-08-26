@@ -1,7 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import { BsGithub } from "react-icons/bs";
 import { Link } from "react-scroll";
+import styled from "styled-components";
 
 const Footer = () => {
   return (
@@ -52,7 +52,7 @@ const Footer = () => {
               <ul>
                 <li data-aos="fade-up" data-aos-delay="900">
                   <a
-                    href="https://github.com/Nitesh52221/E-Talk"
+                    href="https://github.com/kumarankush2003/echat-app"
                     title="github"
                   >
                     <BsGithub />
@@ -68,8 +68,8 @@ const Footer = () => {
         <div className="custom-container flex justify-center items-center">
           <div className="footer-bottom text-center">
             <p>
-              © {new Date().getFullYear()}. All rights reserved | Made with 💙
-              by E-Talk
+              © {new Date().getFullYear()}. Thank you | Made with 💙
+              by EChat-App
             </p>
           </div>
         </div>

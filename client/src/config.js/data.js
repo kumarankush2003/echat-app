@@ -82,7 +82,7 @@ export const teamImg = [
     "name": "Ankush Kumar",
     "src" : "/team/Ankush.jpg",
     "role" : "Full-stack Developer",
-    "link": "https://narenderportfolio.netlify.app",
+    "link": "https://kumarankush2003.github.io/portfolio/",
   },]
 export const colors = [
   {
